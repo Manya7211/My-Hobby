@@ -47,3 +47,7 @@ p {
     font-size: 20px;
     font-family: 'Spectral', serif;
 }
+
+html {
+    scroll-behavior: smooth;
+}
