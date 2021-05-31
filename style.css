@@ -2,52 +2,30 @@ body {
     text-align: center;
 }
 
-.menu {
-    list-style: none;
-    font-family: sans-serif;
-    position: absolute;
-    float: right;
-    top: 10px;
-    right: 30px;
-    cursor: pointer;
-}
-
-.links {
-    float: left;
-    color: white;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 9px;
-    padding-right: 9px;
-    font-family: serif;
-    font-size: 16.8px;
-}
-
-.links:hover {
-    background-color: cadetblue;
-}
-
-#title {
-    font-size: 40px;
-    color: white;
-    font-family: 'Shadows Into Light', cursive
-}
-
 img {
-    height: 350px;
-    width: 350px;
-    border-radius: 15%;
+    width: 500px;
+    height: 500px;
 }
 
-#welcome {
-    background: linear-gradient(#ffe72e 0%, #eb7317 50%, #c91818 100%)
+h1 {
+    font-size: 35px;
 }
 
 p {
     font-size: 20px;
-    font-family: 'Spectral', serif;
 }
 
-html {
-    scroll-behavior: smooth;
+#Mary {
+    background: linear-gradient(#19769e 0%, #199e69 100%)
+}
+
+#Tui {
+    background: linear-gradient(#db1a61 0%, #8c24ed 100%)
+}
+
+.line {
+    height: 6px;
+    background-color: black;
+    width: 70px;
+    margin: 8px auto;
 }
