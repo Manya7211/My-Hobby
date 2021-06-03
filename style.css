@@ -2,25 +2,40 @@ body {
     text-align: center;
 }
 
-img {
-    width: 500px;
-    height: 500px;
+.authors {
+    width: 550px;
+    height: 550px;
+    border-color: black;
+    transition: transform .2s;
 }
 
-h1 {
-    font-size: 35px;
+.authors:hover {
+    transform: scale(0.9);
 }
 
-p {
-    font-size: 20px;
+.menu {
+    list-style: none;
+    font-family: sans-serif;
+    position: absolute;
+    float: right;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
 }
 
-#Mary {
-    background: linear-gradient(#19769e 0%, #199e69 100%)
+.links {
+    float: left;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    font-family: serif;
+    font-size: 16.8px;
 }
 
-#Tui {
-    background: linear-gradient(#db1a61 0%, #8c24ed 100%)
+.links:hover {
+    background-color: cadetblue;
 }
 
 .line {
@@ -28,4 +43,37 @@ p {
     background-color: black;
     width: 70px;
     margin: 8px auto;
+}
+
+#title {
+    font-size: 40px;
+    color: white;
+    font-family: 'Shadows Into Light', cursive
+}
+
+#profile {
+    height: 350px;
+    width: 350px;
+    border-radius: 15%;
+}
+
+#welcome {
+    background: linear-gradient(#ffe72e 0%, #eb7317 50%, #c91818 100%)
+}
+
+.articles {
+    text-decoration: none;
+}
+
+.articles:hover {
+    color: aquamarine;
+}
+
+p {
+    font-size: 20px;
+    font-family: 'Spectral', serif;
+}
+
+html {
+    scroll-behavior: smooth;
 }
