@@ -16,7 +16,7 @@ body {
 .menu {
     list-style: none;
     font-family: sans-serif;
-    position: absolute;
+    position: fixed;
     width: 100%;
     top: 0px;
     margin-top: 0px;
